@@ -67,10 +67,10 @@ const FeatureSection: React.FC = () => {
     <div className="space-y-6">
       <div className="text-center">
         <h2 className="text-2xl font-bold text-gray-900 mb-3">
-          Why Choose Borno LMS?
+          Why Choose Digital Literacy Virtual Academy?
         </h2>
         <p className="text-gray-600 max-w-3xl mx-auto">
-          Built specifically for the unique needs of Borno State learners with cutting-edge features
+          Built specifically for the unique needs of digital literacy learners with cutting-edge features
         </p>
       </div>
 

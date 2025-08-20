@@ -49,7 +49,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onToggle, onNavigate }) => {
                 <BookOpen className="h-5 w-5 text-white" />
               </div>
               <span className="text-lg font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
-                Borno LMS
+                Digital Literacy Virtual Academy
               </span>
             </div>
           )}

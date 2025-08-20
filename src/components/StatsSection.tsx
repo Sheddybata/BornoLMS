@@ -57,7 +57,7 @@ const StatsSection: React.FC = () => {
           Learning Impact
         </h2>
         <p className="text-gray-600">
-          See how we're transforming education in Borno State
+          See how we're transforming digital literacy education
         </p>
       </div>
 

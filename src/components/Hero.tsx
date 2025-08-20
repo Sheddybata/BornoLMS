@@ -9,13 +9,13 @@ const Hero: React.FC = () => {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Borno State
+            Digital Literacy
             <span className="block bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
-              Learning Hub
+              Virtual Academy
             </span>
           </h1>
           <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
-            Empowering minds, building futures. Join thousands of learners in Borno State's premier digital learning platform.
+            Empowering minds, building futures. Join thousands of learners in our premier digital literacy platform.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100 font-semibold px-8 py-3">

@@ -21,10 +21,10 @@ const Footer: React.FC = () => {
               <div className="bg-gradient-to-r from-green-600 to-emerald-600 p-2 rounded-lg">
                 <BookOpen className="h-5 w-5 text-white" />
               </div>
-              <h3 className="text-lg font-bold text-gray-900">Borno LMS</h3>
+              <h3 className="text-lg font-bold text-gray-900">Digital Literacy Virtual Academy</h3>
             </div>
             <p className="text-gray-600 mb-3 text-sm">
-              Empowering the future of Borno State through quality digital education and innovative learning solutions.
+              Empowering the future through quality digital education and innovative learning solutions.
             </p>
             <div className="flex gap-2">
               <Button variant="ghost" size="sm" className="p-2 h-8 w-8 hover:bg-gray-100">
@@ -69,7 +69,7 @@ const Footer: React.FC = () => {
             <div className="space-y-2 text-sm text-gray-600">
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
-                <span>Maiduguri, Borno State, Nigeria</span>
+                <span>Digital Literacy Platform</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
@@ -84,7 +84,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-gray-200 mt-6 pt-6 text-center text-sm text-gray-500">
-          <p>&copy; 2024 Borno State Learning Management System. All rights reserved.</p>
+          <p>&copy; 2024 Digital Literacy Virtual Academy. All rights reserved.</p>
         </div>
       </div>
     </footer>
