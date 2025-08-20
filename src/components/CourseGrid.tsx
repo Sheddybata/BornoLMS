@@ -15,7 +15,7 @@ const CourseGrid: React.FC = () => {
       instructor: "This module introduces the physical and conceptual parts of digital devices, providing a solid foundation for all future modules.",
       level: "Beginner",
       category: "Technology",
-      image: "/Device Operation and Fundamentals.svg"
+      image: "Device Operation and Fundamentals.svg"
     },
     {
       id: 'internet-data-literacy',
@@ -23,7 +23,7 @@ const CourseGrid: React.FC = () => {
       instructor: "This module shows you how to navigate the internet safely and effectively, turning you into a skilled digital information seeker",
       level: "Beginner",
       category: "Digital Literacy",
-      image: "/Introduction to the Internet and Data Literacy.svg"
+      image: "Introduction to the Internet and Data Literacy.svg"
     },
     {
       id: 'digital-communication',
@@ -31,7 +31,7 @@ const CourseGrid: React.FC = () => {
       instructor: "This module focuses on the tools and respectful behavior needed to be a good digital citizen in online conversations.",
       level: "Beginner",
       category: "Communication",
-      image: "/Digital Communication and Collaboration.svg"
+      image: "Digital Communication and Collaboration.svg"
     },
     {
       id: 'digital-content-creation',
@@ -39,7 +39,7 @@ const CourseGrid: React.FC = () => {
       instructor: "This module is a practical guide to creating and managing digital content using applications like MS Word, Excel, and Corel Draw.",
       level: "Intermediate",
       category: "Productivity",
-      image: "/Digital Content Creation and Productivity.svg"
+      image: "Digital Content Creation and Productivity.svg"
     },
     {
       id: 'online-safety',
@@ -47,7 +47,7 @@ const CourseGrid: React.FC = () => {
       instructor: "This module is dedicated to making you a smart, safe, and responsible digital citizen by covering topics from strong passwords to recognizing online scams.",
       level: "Beginner",
       category: "Security",
-      image: "/Online Safety and Digital Citizenship.svg"
+      image: "Online Safety and Digital Citizenship.svg"
     },
     {
       id: 'emerging-technologies',
@@ -55,7 +55,7 @@ const CourseGrid: React.FC = () => {
       instructor: "This module provides a brief introduction to transformative technologies and an overview of cybersecurity",
       level: "Intermediate",
       category: "Technology",
-      image: "/Introduction to Emerging Technologies and Cybersecurity.svg"
+      image: "Introduction to Emerging Technologies and Cybersecurity.svg"
     },
     {
       id: 'capstone-project',
@@ -63,7 +63,7 @@ const CourseGrid: React.FC = () => {
       instructor: "This final module allows you to bring all your learned skills together in a practical project and prepare for the next step in your digital journey",
       level: "Advanced",
       category: "Project",
-      image: "/Capstone Project and Pathway to Opportunities.svg"
+      image: "Capstone Project and Pathway to Opportunities.svg"
     }
   ];
 
