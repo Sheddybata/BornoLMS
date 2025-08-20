@@ -41,14 +41,14 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onToggle, onNavigate }) => {
       isOpen ? 'w-64' : 'w-16'
     }`}>
       {/* Header */}
-      <div className="p-4 border-b border-gray-200">
+      <div className="p-3 sm:p-4 border-b border-gray-200">
         <div className="flex items-center justify-between">
           {isOpen && (
             <div className="flex items-center gap-2">
               <div className="bg-gradient-to-r from-green-600 to-emerald-600 p-2 rounded-lg">
                 <BookOpen className="h-5 w-5 text-white" />
               </div>
-              <span className="text-lg font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
+              <span className="text-base sm:text-lg font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent leading-tight">
                 Digital Literacy Virtual Academy
               </span>
             </div>
@@ -57,7 +57,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onToggle, onNavigate }) => {
             variant="ghost"
             size="sm"
             onClick={onToggle}
-            className="p-1 h-8 w-8"
+            className="p-1 h-8 w-8 flex-shrink-0"
           >
             {isOpen ? (
               <ChevronLeft className="h-4 w-4" />

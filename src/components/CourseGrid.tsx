@@ -83,26 +83,26 @@ const CourseGrid: React.FC = () => {
   return (
     <div className="space-y-6">
       {/* Header Section */}
-      <div className="text-center space-y-4">
-        <h1 className="text-4xl font-bold text-gray-900">{t('welcomeToProgram')}</h1>
-        <blockquote className="text-lg text-gray-700 italic max-w-4xl mx-auto leading-relaxed">
+      <div className="text-center space-y-4 px-4 sm:px-0">
+        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">{t('welcomeToProgram')}</h1>
+        <blockquote className="text-base sm:text-lg text-gray-700 italic max-w-4xl mx-auto leading-relaxed">
           {t('engrKabirQuote')}
-          <footer className="mt-4 text-base font-semibold text-green-600">
+          <footer className="mt-4 text-sm sm:text-base font-semibold text-green-600">
             — Engr. Kabir Mohammed Wanori FNSE<br />
-            <span className="text-sm text-gray-600">Executive Secretary BICTDA</span>
+            <span className="text-xs sm:text-sm text-gray-600">Executive Secretary BICTDA</span>
           </footer>
         </blockquote>
       </div>
 
       {/* View All Courses Button */}
-      <div className="text-center">
-        <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg">
+      <div className="text-center px-4 sm:px-0">
+        <Button className="bg-green-600 hover:bg-green-700 text-white px-6 sm:px-8 py-2.5 sm:py-3 text-base sm:text-lg w-full sm:w-auto">
           {t('viewAll')}
         </Button>
       </div>
 
       {/* Course Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 px-4 sm:px-0">
         {courses.map((course) => (
           <CourseCard
             key={course.id}

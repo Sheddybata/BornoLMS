@@ -64,27 +64,27 @@ const FeatureSection: React.FC = () => {
   ];
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 px-4 sm:px-0">
       <div className="text-center">
-        <h2 className="text-2xl font-bold text-gray-900 mb-3">
+        <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3">
           Why Choose Digital Literacy Virtual Academy?
         </h2>
-        <p className="text-gray-600 max-w-3xl mx-auto">
+        <p className="text-gray-600 max-w-3xl mx-auto text-sm sm:text-base">
           Built specifically for the unique needs of digital literacy learners with cutting-edge features
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
         {features.map((feature, index) => (
           <Card key={index} className="border border-gray-200 shadow-sm hover:shadow-md transition-all duration-200 hover:-translate-y-1 bg-white">
-            <CardContent className="p-4 text-center">
-              <div className={`${feature.color} p-3 rounded-full w-14 h-14 mx-auto mb-3 flex items-center justify-center`}>
-                <feature.icon className="h-7 w-7 text-white" />
+            <CardContent className="p-3 sm:p-4 text-center">
+              <div className={`${feature.color} p-2 sm:p-3 rounded-full w-12 h-12 sm:w-14 sm:h-14 mx-auto mb-3 flex items-center justify-center`}>
+                <feature.icon className="h-6 w-6 sm:h-7 sm:w-7 text-white" />
               </div>
-              <h3 className="text-base font-semibold text-gray-900 mb-2">
+              <h3 className="text-sm sm:text-base font-semibold text-gray-900 mb-2">
                 {feature.title}
               </h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
+              <p className="text-gray-600 text-xs sm:text-sm leading-relaxed">
                 {feature.description}
               </p>
             </CardContent>
